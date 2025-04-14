@@ -1,7 +1,11 @@
 # Program files for Python I game
-
 Authors: Kathy Qi, Meghan Trainor, Christian Monson, Lissa Shaman, Brian
 Gutierrez
+
+## Open in Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/klqi/
+python1_game/main)
+
 
 ## File Structure
 ```
