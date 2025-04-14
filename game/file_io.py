@@ -4,7 +4,7 @@ import json
 # saves current game to json file
 def save_game(game_state):
     try:
-        with open("savegame.json", "w") as f:
+        with open("saved_games/savegame.json", "w") as f:
             json.dump(game_state, f)
         print("Game saved.")
     except Exception as e:
@@ -13,7 +13,7 @@ def save_game(game_state):
 # loads game from existing json file (unless file does not exist)
 def load_game():
     try:
-        with open("savegame.json", "r") as f:
+        with open("saved_games/savegame.json", "r") as f:
             return json.load(f)
     except Exception as e:
         print("Error loading game:", e)

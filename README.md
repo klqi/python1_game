@@ -4,6 +4,7 @@ Authors: Kathy Qi, Meghan Trainor, Christian Monson, Lissa Shaman, Brian
 Gutierrez
 
 ## File Structure
+```
 text_adventure/
 │
 ├── game/
@@ -15,4 +16,4 @@ text_adventure/
 │   └── file_io.py
 │
 └── main.py
-
+```
